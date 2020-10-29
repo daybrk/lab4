@@ -18,7 +18,7 @@ import java.util.List;
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
 
     private final List<String> mValues;
-    private static int pos;
+
 
     public RecyclerAdapter(String[] sandwich) {
         mValues = Arrays.asList(sandwich);

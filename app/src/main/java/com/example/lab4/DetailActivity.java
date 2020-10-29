@@ -15,7 +15,6 @@ import com.squareup.picasso.Picasso;
 
 public class DetailActivity extends AppCompatActivity {
 
-    public static final String EXTRA_POSITION = "extra_position";
     private static final int DEFAULT_POSITION = -1;
 
     TextView alsoKnowAs;
@@ -43,7 +42,6 @@ public class DetailActivity extends AppCompatActivity {
         }
 
         int position = intent.getIntExtra("ARG_ITEM_POSITION", DEFAULT_POSITION);
-        Log.i("INFOO", String.valueOf(position));
         if (position == DEFAULT_POSITION) {
 
             closeOnError();
